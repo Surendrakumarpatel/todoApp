@@ -1,0 +1,88 @@
+[debug] [2021-05-11T05:45:39.459Z] ----------------------------------------------------------------------
+[debug] [2021-05-11T05:45:39.464Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Win10\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2021-05-11T05:45:39.465Z] CLI Version:   9.10.2
+[debug] [2021-05-11T05:45:39.465Z] Platform:      win32
+[debug] [2021-05-11T05:45:39.465Z] Node Version:  v14.15.4
+[debug] [2021-05-11T05:45:39.468Z] Time:          Tue May 11 2021 11:15:39 GMT+0530 (India Standard Time)
+[debug] [2021-05-11T05:45:39.469Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-05-11T05:45:39.488Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-05-11T05:45:39.489Z] > authorizing via signed-in user (asurendrakumarpatel@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\Win10\Desktop\React Firebase ToDo App
+
+Before we get started, keep in mind:
+
+  * You are initializing in an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  .firebaserc already has a default project, using todoapp-1ebe9. 
+[debug] [2021-05-11T05:45:46.094Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/todoapp-1ebe9 [none]
+[debug] [2021-05-11T05:46:07.157Z] Failed to make request to https://firebase.googleapis.com/v1beta1/projects/todoapp-1ebe9
+[debug] [2021-05-11T05:46:28.178Z] FirebaseError: Failed to make request to https://firebase.googleapis.com/v1beta1/projects/todoapp-1ebe9
+    at Client.doRequest (C:\Users\Win10\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:211:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Client.request (C:\Users\Win10\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:96:20)
+    at async Object.getFirebaseProject (C:\Users\Win10\AppData\Roaming\npm\node_modules\firebase-tools\lib\management\projects.js:290:21)
+    at async Object.doSetup [as project] (C:\Users\Win10\AppData\Roaming\npm\node_modules\firebase-tools\lib\init\features\project.js:77:27)
+    at async init (C:\Users\Win10\AppData\Roaming\npm\node_modules\firebase-tools\lib\init\index.js:19:9)
+[error] 
+[error] Error: Failed to get Firebase project todoapp-1ebe9. Please make sure the project exists and your account has permission to access it.
+[debug] [2021-05-11T05:47:19.617Z] ----------------------------------------------------------------------
+[debug] [2021-05-11T05:47:19.622Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Win10\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2021-05-11T05:47:19.623Z] CLI Version:   9.10.2
+[debug] [2021-05-11T05:47:19.623Z] Platform:      win32
+[debug] [2021-05-11T05:47:19.624Z] Node Version:  v14.15.4
+[debug] [2021-05-11T05:47:19.626Z] Time:          Tue May 11 2021 11:17:19 GMT+0530 (India Standard Time)
+[debug] [2021-05-11T05:47:19.626Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-05-11T05:47:19.642Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-05-11T05:47:19.643Z] > authorizing via signed-in user (asurendrakumarpatel@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\Win10\Desktop\React Firebase ToDo App
+
+Before we get started, keep in mind:
+
+  * You are initializing in an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  .firebaserc already has a default project, using todoapp-1ebe9. 
+[debug] [2021-05-11T05:47:27.103Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/todoapp-1ebe9 [none]
+[debug] [2021-05-11T05:47:48.364Z] Failed to make request to https://firebase.googleapis.com/v1beta1/projects/todoapp-1ebe9
+[debug] [2021-05-11T05:48:09.385Z] FirebaseError: Failed to make request to https://firebase.googleapis.com/v1beta1/projects/todoapp-1ebe9
+    at Client.doRequest (C:\Users\Win10\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:211:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Client.request (C:\Users\Win10\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:96:20)
+    at async Object.getFirebaseProject (C:\Users\Win10\AppData\Roaming\npm\node_modules\firebase-tools\lib\management\projects.js:290:21)
+    at async Object.doSetup [as project] (C:\Users\Win10\AppData\Roaming\npm\node_modules\firebase-tools\lib\init\features\project.js:77:27)
+    at async init (C:\Users\Win10\AppData\Roaming\npm\node_modules\firebase-tools\lib\init\index.js:19:9)
+[error] 
+[error] Error: Failed to get Firebase project todoapp-1ebe9. Please make sure the project exists and your account has permission to access it.
